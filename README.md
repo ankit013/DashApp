@@ -23,6 +23,11 @@ https://dash.plotly.com/installation
 
 ## Dash application deployment using Heroku
 
-https://www.youtube.com/watch?v=b-M2KQ6_bM4&t=106s
+The deployment process using Heroku is relatively easy. Check out this guide for deploying to Heroku.
 
-Pre-requisites: Need to have Procfile , Requirements.txt,app.py.
+1. To begin, you need to create a Heroku account.
+2. Define a requirements.txt file with the packages to run your Dash app and python files.
+3. Define a Procfile (a text in the root directory of your repo) to specify the command to start your app.
+   web: gunicorn app:server
+4. Specify your github repo and branch for deployment. You can do this using the heroku CLI or their web interface.
+5. Deploy!
