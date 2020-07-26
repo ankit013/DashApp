@@ -29,7 +29,7 @@ The deployment process using Heroku is relatively easy. Check out this guide for
 2. Define a requirements.txt file with the packages to run your Dash app and python files.
 3. Define a Procfile (a text in the root directory of your repo) to specify the command to start your app.
 
-   web: gunicorn app:server
+   **web: gunicorn app:server**
    
 4. Specify your github repo and branch for deployment. You can do this using the heroku CLI or their web interface.
 5. Deploy!
