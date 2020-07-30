@@ -33,3 +33,5 @@ The deployment process using Heroku is relatively easy. Check out this guide for
    
 4. Specify your github repo and branch for deployment. You can do this using the heroku CLI or their web interface.
 5. Deploy!
+
+Link:https://dash.plotly.com/deployment
